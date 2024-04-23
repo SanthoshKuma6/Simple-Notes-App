@@ -1,14 +1,12 @@
-package com.example.notes.viewmodel
+package com.sk.notes.viewmodel
 
 import android.app.Application
-import android.media.MediaCodec.ParameterDescriptor
-import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.example.notes.repository.NoteRepository
-import com.example.notes.roomDb.NoteDataBase
-import com.example.notes.roomDb.NoteEntity
+import com.sk.notes.repository.NoteRepository
+import com.sk.notes.roomDb.NoteDataBase
+import com.sk.notes.roomDb.NoteEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

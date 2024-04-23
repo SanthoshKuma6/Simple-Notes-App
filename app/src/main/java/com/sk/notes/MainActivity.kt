@@ -1,18 +1,17 @@
-package com.example.notes
+package com.sk.notes
 
 import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.notes.adapter.NoteFolderAdapter
-import com.example.notes.databinding.ActivityMainBinding
-import com.example.notes.roomDb.NoteEntity
-import com.example.notes.viewmodel.MainActivityViewModel
+import com.sk.notes.adapter.NoteFolderAdapter
+import com.sk.notes.databinding.ActivityMainBinding
+import com.sk.notes.roomDb.NoteEntity
+import com.sk.notes.viewmodel.MainActivityViewModel
 
 class MainActivity : AppCompatActivity(), NoteFolderAdapter.DeleteListener {
 

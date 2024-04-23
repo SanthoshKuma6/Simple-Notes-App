@@ -1,4 +1,4 @@
-package com.example.notes.adapter
+package com.sk.notes.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.notes.R
-import com.example.notes.databinding.FolderAdapterViewBinding
-import com.example.notes.roomDb.NoteEntity
+import com.sk.notes.R
+import com.sk.notes.databinding.FolderAdapterViewBinding
+import com.sk.notes.roomDb.NoteEntity
 
 class NoteFolderAdapter(private var deleteClick:DeleteListener):RecyclerView.Adapter<NoteFolderAdapter.ViewHolder>() {
 

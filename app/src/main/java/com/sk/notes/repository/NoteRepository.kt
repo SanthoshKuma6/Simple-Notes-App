@@ -1,8 +1,8 @@
-package com.example.notes.repository
+package com.sk.notes.repository
 
 import androidx.lifecycle.LiveData
-import com.example.notes.roomDb.NoteDao
-import com.example.notes.roomDb.NoteEntity
+import com.sk.notes.roomDb.NoteDao
+import com.sk.notes.roomDb.NoteEntity
 
 
 class NoteRepository(private var noteDao: NoteDao?){

@@ -1,23 +1,17 @@
-package com.example.notes
+package com.sk.notes
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.lifecycle.ViewModelProvider
-import com.example.notes.databinding.ActivityNotesPageBinding
-import com.example.notes.roomDb.NoteEntity
-import com.example.notes.viewmodel.MainActivityViewModel
-import java.text.DateFormat
+import com.sk.notes.databinding.ActivityNotesPageBinding
+import com.sk.notes.roomDb.NoteEntity
+import com.sk.notes.viewmodel.MainActivityViewModel
 import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Date
-import java.util.UUID
 import kotlin.random.Random
 
 class NotesPageActivity:AppCompatActivity() {

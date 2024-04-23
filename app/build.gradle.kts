@@ -9,11 +9,11 @@ plugins {
 
 
 android {
-    namespace = "com.example.notes"
+    namespace = "com.sk.notes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.notes"
+        applicationId = "com.sk.notes"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

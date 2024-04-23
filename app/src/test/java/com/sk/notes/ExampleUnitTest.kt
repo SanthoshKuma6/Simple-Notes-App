@@ -1,4 +1,4 @@
-package com.example.notes
+package com.sk.notes
 
 import org.junit.Test
 
